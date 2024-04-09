@@ -113,9 +113,13 @@ button {
 }
 
 @media (max-width: 700px) {
+    body {
+        display: block;
+    }
+
     .card {
         width: 343px;
-        margin-top: 28px;
+        margin: 28px auto;
         flex-direction: column;
     }
 
